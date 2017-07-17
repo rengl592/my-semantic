@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../dist/semantic.min.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index-3.css">
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="../dist/semantic.min.js"></script>
+</head>
+
+<body>
+    <div id="top-nav">
+        <div class="ui six column grid stackable container center aligned computer tablet only">
+            <div class="column column-a-i">
+                <a href="#">About<i class="caret down icon"></i></a>
+            </div>
+            <div class="column column-a-i">
+                <a href="#">Admissions<i class="caret down icon"></i></a>
+            </div>
+            <div class="column column-a-i">
+                <a href="#">Academics<i class="caret down icon"></i></a>
+            </div>
+            <div class="column column-a-i">
+                <a href="#">Campus<i class="caret down icon"></i></a>
+            </div>
+            <div class="column column-a-i">
+                <a href="#">Research<i class="caret down icon"></i></a>
+            </div>
+            <div class="column computer only column-a-1">
+                <a href="#">APPLY</a>
+                <a href="#">SEARCH</a>
+            </div>
+            <div class="column tablet only column-a-2">
+                <a href="#">APPLY</a>
+                <a href="#">SEARCH</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui stackable container" id="max-logo">
+        <img class="ui large image" src="../images/uvmlogo2014.png" alt="">
+    </div>
+
+    <!--手机-->
+    <div id="mobile-767">
+        <div id="mo-top">
+            <div id="mo-nav">
+                <a href="#"><i class="content icon"></i></a>
+            </div>
+            <div id="mo-logo">
+                <img class="ui medium image" src="../images/uvmlogo2014.png" alt="">
+            </div>
+        </div>
+        <div id="show-mo-nav">
+            <div class="ui six column grid stackable container center aligned">
+                <div class="column column-a-i">
+                    <a href="#">About<i class="caret down icon"></i></a>
+                </div>
+                <div class="column column-a-i">
+                    <a href="#">Admissions<i class="caret down icon"></i></a>
+                </div>
+                <div class="column column-a-i">
+                    <a href="#">Academics<i class="caret down icon"></i></a>
+                </div>
+                <div class="column column-a-i">
+                    <a href="#">Campus<i class="caret down icon"></i></a>
+                </div>
+                <div class="column column-a-i">
+                    <a href="#">Research<i class="caret down icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="slide-show">
+        <div class="ui grid stackable container">
+            <div class="column">
+                <img class="ui fluid image" src="../images/gund-uvmhomepg.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $("#mo-nav").on("click",function () {
+                $("#show-mo-nav").slideToggle(300);
+            });
+        })
+    </script>
+</body>
+
+</html>

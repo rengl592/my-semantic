@@ -1,0 +1,21 @@
+.ui.grid{margin-top: 0;}
+#top-nav{background: #a7d233;}
+#top-nav .column-a-i{margin-top: 2rem;}
+#top-nav .column-a-1>a{display: inline-block;padding: 1rem 0.5rem 1rem 0.5rem;background: #007155;color: #fff;}
+#top-nav .column-a-2>a{display: inline-block;margin-bottom: 1rem;color: #fff;}
+@media only screen and (max-width: 767px)
+{
+    #max-logo{display: none;}
+}
+#slide-show{border-top: 1px solid darkgrey;border-bottom: 1px solid darkgrey;background: url("../images/speckle600-566.jpg")}
+
+
+@media only screen and (min-width: 767px)
+{
+    #mobile-767{position: relative;display: none;}
+}
+#mo-nav{display: inline-block;position: absolute;z-index: 10;padding: 1.5rem 0.4rem;width: 3rem;height: 5rem;font-size: 2rem;background: #007155;}
+#mo-nav a{color: #fff;}
+#mo-top{width: 100vw;height: 5rem;}
+#mo-logo{position: absolute;left: 3rem;display: inline-block;}
+#show-mo-nav{display: none;background: #ececec;}
